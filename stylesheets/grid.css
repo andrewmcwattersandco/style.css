@@ -16,6 +16,7 @@
     margin-right: auto;
 }
 
+/* 640x480 */
 /* @media (min-width: calc(640px - var(--scrollbar-width))) { */
 @media (min-width: 623px) {
     .type-area,
@@ -30,6 +31,7 @@
     }
 }
 
+/* 800x600 */
 /* @media (min-width: calc(800px - var(--scrollbar-width))) { */
 @media (min-width: 783px) {
     .type-area,
@@ -43,6 +45,7 @@
     }
 }
 
+/* 1024x768 */
 /* @media (min-width: calc(1024px - var(--scrollbar-width))) { */
 @media (min-width: 1007px) {
     .type-area,
@@ -55,6 +58,7 @@
     }
 }
 
+/* 1280x720 */
 /* @media (min-width: calc(1280px - var(--scrollbar-width))) { */
 @media (min-width: 1263px) {
     .type-area,
@@ -66,6 +70,7 @@
     }
 }
 
+/* 1920x1080 */
 /* @media (min-width: calc(1920px - var(--scrollbar-width))) { */
 @media (min-width: 1903px) {
     .type-area,
@@ -77,6 +82,7 @@
     }
 }
 
+/* 2560x1440 */
 /* @media (min-width: calc(2560px - var(--scrollbar-width))) { */
 @media (min-width: 2543px) {
     .type-area,
@@ -87,6 +93,7 @@
     }
 }
 
+/* 3840x2160 */
 /* @media (min-width: calc(3840px - var(--scrollbar-width))) { */
 @media (min-width: 3823px) {
     .type-area,
@@ -96,6 +103,7 @@
     }
 }
 
+/* 7680x4320 */
 /* @media (min-width: calc(7680px - var(--scrollbar-width))) { */
 @media (min-width: 7663px) {
     .type-area,
