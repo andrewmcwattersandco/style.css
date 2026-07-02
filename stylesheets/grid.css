@@ -1,1 +1,80 @@
-.type-area {}
+.type-area,
+.type-area-vga,  /* 640x480 */
+.type-area-svga, /* 800x600 */
+.type-area-xga,  /* 1024x768 */
+.type-area-hd,   /* 1280x720 */
+.type-area-fhd,  /* 1920x1080 */
+.type-area-4k,   /* 3840x2160 */
+.type-area-8k {  /* 7680x4320 */
+    width: 100%;
+}
+
+@media (min-width: 640px) {
+    .type-area,
+    .type-area-vga,
+    .type-area-svga,
+    .type-area-xga,
+    .type-area-hd,
+    .type-area-fhd,
+    .type-area-4k,
+    .type-area-8k {
+        max-width: 640px;
+    }
+}
+
+@media (min-width: 800px) {
+    .type-area,
+    .type-area-svga,
+    .type-area-xga,
+    .type-area-hd,
+    .type-area-fhd,
+    .type-area-4k,
+    .type-area-8k {
+        max-width: 800px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .type-area,
+    .type-area-xga,
+    .type-area-hd,
+    .type-area-fhd,
+    .type-area-4k,
+    .type-area-8k {
+        max-width: 1024px;
+    }
+}
+
+@media (min-width: 1280px) {
+    .type-area,
+    .type-area-hd,
+    .type-area-fhd,
+    .type-area-4k,
+    .type-area-8k {
+        max-width: 1280px;
+    }
+}
+
+@media (min-width: 1920px) {
+    .type-area,
+    .type-area-fhd,
+    .type-area-4k,
+    .type-area-8k {
+        max-width: 1920px;
+    }
+}
+
+@media (min-width: 3840px) {
+    .type-area,
+    .type-area-4k,
+    .type-area-8k {
+        max-width: 3840px;
+    }
+}
+
+@media (min-width: 7680px) {
+    .type-area,
+    .type-area-8k {
+        max-width: 7680px;
+    }
+}
