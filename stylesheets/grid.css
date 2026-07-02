@@ -4,6 +4,7 @@
 .type-area-xga,  /* 1024x768 */
 .type-area-hd,   /* 1280x720 */
 .type-area-fhd,  /* 1920x1080 */
+.type-area-qhd,  /* 2560x1440 */
 .type-area-4k,   /* 3840x2160 */
 .type-area-8k {  /* 7680x4320 */
     width: 100%;
@@ -60,9 +61,19 @@
 @media (min-width: 1920px) {
     .type-area,
     .type-area-fhd,
+    .type-area-qhd,
     .type-area-4k,
     .type-area-8k {
         max-width: 1920px;
+    }
+}
+
+@media (min-width: 2560px) {
+    .type-area,
+    .type-area-qhd,
+    .type-area-4k,
+    .type-area-8k {
+        max-width: 2560px;
     }
 }
 
