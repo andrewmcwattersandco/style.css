@@ -16,7 +16,8 @@
     margin-right: auto;
 }
 
-@media (min-width: calc(640px - var(--scrollbar-width))) {
+/* @media (min-width: calc(640px - var(--scrollbar-width))) { */
+@media (min-width: 623px) {
     .type-area,
     .type-area-vga,
     .type-area-svga,
@@ -29,7 +30,8 @@
     }
 }
 
-@media (min-width: calc(800px - var(--scrollbar-width))) {
+/* @media (min-width: calc(800px - var(--scrollbar-width))) { */
+@media (min-width: 783px) {
     .type-area,
     .type-area-svga,
     .type-area-xga,
@@ -41,7 +43,8 @@
     }
 }
 
-@media (min-width: calc(1024px - var(--scrollbar-width))) {
+/* @media (min-width: calc(1024px - var(--scrollbar-width))) { */
+@media (min-width: 1007px) {
     .type-area,
     .type-area-xga,
     .type-area-hd,
@@ -52,7 +55,8 @@
     }
 }
 
-@media (min-width: calc(1280px - var(--scrollbar-width))) {
+/* @media (min-width: calc(1280px - var(--scrollbar-width))) { */
+@media (min-width: 1263px) {
     .type-area,
     .type-area-hd,
     .type-area-fhd,
@@ -62,7 +66,8 @@
     }
 }
 
-@media (min-width: calc(1920px - var(--scrollbar-width))) {
+/* @media (min-width: calc(1920px - var(--scrollbar-width))) { */
+@media (min-width: 1903px) {
     .type-area,
     .type-area-fhd,
     .type-area-qhd,
@@ -72,7 +77,8 @@
     }
 }
 
-@media (min-width: calc(2560px - var(--scrollbar-width))) {
+/* @media (min-width: calc(2560px - var(--scrollbar-width))) { */
+@media (min-width: 2543px) {
     .type-area,
     .type-area-qhd,
     .type-area-4k,
@@ -81,7 +87,8 @@
     }
 }
 
-@media (min-width: calc(3840px - var(--scrollbar-width))) {
+/* @media (min-width: calc(3840px - var(--scrollbar-width))) { */
+@media (min-width: 3823px) {
     .type-area,
     .type-area-4k,
     .type-area-8k {
@@ -89,7 +96,8 @@
     }
 }
 
-@media (min-width: calc(7680px - var(--scrollbar-width))) {
+/* @media (min-width: calc(7680px - var(--scrollbar-width))) { */
+@media (min-width: 7663px) {
     .type-area,
     .type-area-8k {
         max-width: calc(7680px - var(--scrollbar-width));
