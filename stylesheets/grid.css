@@ -1,3 +1,7 @@
+:root {
+    --scrollbar-width: 17px;
+}
+
 .type-area,
 .type-area-vga,  /* 640x480 */
 .type-area-svga, /* 800x600 */
@@ -12,7 +16,7 @@
     margin-right: auto;
 }
 
-@media (min-width: 640px) {
+@media (min-width: calc(640px - var(--scrollbar-width))) {
     .type-area,
     .type-area-vga,
     .type-area-svga,
@@ -21,11 +25,11 @@
     .type-area-fhd,
     .type-area-4k,
     .type-area-8k {
-        max-width: 640px;
+        max-width: calc(640px - var(--scrollbar-width));
     }
 }
 
-@media (min-width: 800px) {
+@media (min-width: calc(800px - var(--scrollbar-width))) {
     .type-area,
     .type-area-svga,
     .type-area-xga,
@@ -33,61 +37,61 @@
     .type-area-fhd,
     .type-area-4k,
     .type-area-8k {
-        max-width: 800px;
+        max-width: calc(800px - var(--scrollbar-width));
     }
 }
 
-@media (min-width: 1024px) {
+@media (min-width: calc(1024px - var(--scrollbar-width))) {
     .type-area,
     .type-area-xga,
     .type-area-hd,
     .type-area-fhd,
     .type-area-4k,
     .type-area-8k {
-        max-width: 1024px;
+        max-width: calc(1024px - var(--scrollbar-width));
     }
 }
 
-@media (min-width: 1280px) {
+@media (min-width: calc(1280px - var(--scrollbar-width))) {
     .type-area,
     .type-area-hd,
     .type-area-fhd,
     .type-area-4k,
     .type-area-8k {
-        max-width: 1280px;
+        max-width: calc(1280px - var(--scrollbar-width));
     }
 }
 
-@media (min-width: 1920px) {
+@media (min-width: calc(1920px - var(--scrollbar-width))) {
     .type-area,
     .type-area-fhd,
     .type-area-qhd,
     .type-area-4k,
     .type-area-8k {
-        max-width: 1920px;
+        max-width: calc(1920px - var(--scrollbar-width));
     }
 }
 
-@media (min-width: 2560px) {
+@media (min-width: calc(2560px - var(--scrollbar-width))) {
     .type-area,
     .type-area-qhd,
     .type-area-4k,
     .type-area-8k {
-        max-width: 2560px;
+        max-width: calc(2560px - var(--scrollbar-width));
     }
 }
 
-@media (min-width: 3840px) {
+@media (min-width: calc(3840px - var(--scrollbar-width))) {
     .type-area,
     .type-area-4k,
     .type-area-8k {
-        max-width: 3840px;
+        max-width: calc(3840px - var(--scrollbar-width));
     }
 }
 
-@media (min-width: 7680px) {
+@media (min-width: calc(7680px - var(--scrollbar-width))) {
     .type-area,
     .type-area-8k {
-        max-width: 7680px;
+        max-width: calc(7680px - var(--scrollbar-width));
     }
 }
