@@ -90,22 +90,6 @@
     .inline-grid-fhd   { display: inline-grid; }
 }
 
-/* 2560x1440 */
-/* @media (min-width: calc(2560px - var(--scrollbar-width))) { */
-@media (min-width: 2543px) {
-    .inline-block-qhd  { display: inline-block; }
-    .block-qhd         { display: block; }
-    .inline-qhd        { display: inline; }
-    .table-qhd         { display: table; }
-    .table-cell-qhd    { display: table-cell; }
-    .table-row-qhd     { display: table-row; }
-    .hidden-qhd        { display: none; }
-    .grid-qhd          { display: grid; }
-    .flex-qhd          { display: flex; }
-    .inline-flex-qhd   { display: inline-flex; }
-    .inline-grid-qhd   { display: inline-grid; }
-}
-
 /* 3840x2160 */
 /* @media (min-width: calc(3840px - var(--scrollbar-width))) { */
 @media (min-width: 3823px) {

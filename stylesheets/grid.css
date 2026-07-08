@@ -78,8 +78,7 @@
 /* @media (min-width: calc(3840px - var(--scrollbar-width))) { */
 @media (min-width: 3823px) {
     .type-area,
-    .type-area-4k,
-    .type-area-8k {
+    .type-area-4k {
         max-width: calc(3840px - var(--scrollbar-width));
     }
 }
