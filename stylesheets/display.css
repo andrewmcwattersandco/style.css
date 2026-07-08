@@ -122,18 +122,3 @@
     .inline-grid-4k    { display: inline-grid; }
 }
 
-/* 7680x4320 */
-/* @media (min-width: calc(7680px - var(--scrollbar-width))) { */
-@media (min-width: 7663px) {
-    .inline-block-8k   { display: inline-block; }
-    .block-8k          { display: block; }
-    .inline-8k         { display: inline; }
-    .table-8k          { display: table; }
-    .table-cell-8k     { display: table-cell; }
-    .table-row-8k      { display: table-row; }
-    .hidden-8k         { display: none; }
-    .grid-8k           { display: grid; }
-    .flex-8k           { display: flex; }
-    .inline-flex-8k    { display: inline-flex; }
-    .inline-grid-8k    { display: inline-grid; }
-}
