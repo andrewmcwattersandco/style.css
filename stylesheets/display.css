@@ -90,19 +90,3 @@
     .inline-grid-fhd   { display: inline-grid; }
 }
 
-/* 3840x2160 */
-/* @media (min-width: calc(3840px - var(--scrollbar-width))) { */
-@media (min-width: 3823px) {
-    .inline-block-4k   { display: inline-block; }
-    .block-4k          { display: block; }
-    .inline-4k         { display: inline; }
-    .table-4k          { display: table; }
-    .table-cell-4k     { display: table-cell; }
-    .table-row-4k      { display: table-row; }
-    .hidden-4k         { display: none; }
-    .grid-4k           { display: grid; }
-    .flex-4k           { display: flex; }
-    .inline-flex-4k    { display: inline-flex; }
-    .inline-grid-4k    { display: inline-grid; }
-}
-

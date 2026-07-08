@@ -7,8 +7,7 @@
 .type-area-svga, /* 800x600 */
 .type-area-xga,  /* 1024x768 */
 .type-area-hd,   /* 1280x720 */
-.type-area-fhd,  /* 1920x1080 */
-.type-area-4k {  /* 3840x2160 */
+.type-area-fhd {  /* 1920x1080 */
     width: 100%;
     margin-left: auto;
     margin-right: auto;
@@ -22,8 +21,7 @@
     .type-area-svga,
     .type-area-xga,
     .type-area-hd,
-    .type-area-fhd,
-    .type-area-4k {
+    .type-area-fhd {
         max-width: calc(640px - var(--scrollbar-width));
     }
 }
@@ -35,8 +33,7 @@
     .type-area-svga,
     .type-area-xga,
     .type-area-hd,
-    .type-area-fhd,
-    .type-area-4k {
+    .type-area-fhd {
         max-width: calc(800px - var(--scrollbar-width));
     }
 }
@@ -47,8 +44,7 @@
     .type-area,
     .type-area-xga,
     .type-area-hd,
-    .type-area-fhd,
-    .type-area-4k {
+    .type-area-fhd {
         max-width: calc(1024px - var(--scrollbar-width));
     }
 }
@@ -58,8 +54,7 @@
 @media (min-width: 1263px) {
     .type-area,
     .type-area-hd,
-    .type-area-fhd,
-    .type-area-4k {
+    .type-area-fhd {
         max-width: calc(1280px - var(--scrollbar-width));
     }
 }
@@ -68,18 +63,8 @@
 /* @media (min-width: calc(1920px - var(--scrollbar-width))) { */
 @media (min-width: 1903px) {
     .type-area,
-    .type-area-fhd,
-    .type-area-4k {
+    .type-area-fhd {
         max-width: calc(1920px - var(--scrollbar-width));
-    }
-}
-
-/* 3840x2160 */
-/* @media (min-width: calc(3840px - var(--scrollbar-width))) { */
-@media (min-width: 3823px) {
-    .type-area,
-    .type-area-4k {
-        max-width: calc(3840px - var(--scrollbar-width));
     }
 }
 
