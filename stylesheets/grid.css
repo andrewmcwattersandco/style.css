@@ -8,7 +8,6 @@
 .type-area-xga,  /* 1024x768 */
 .type-area-hd,   /* 1280x720 */
 .type-area-fhd,  /* 1920x1080 */
-.type-area-qhd,  /* 2560x1440 */
 .type-area-4k {  /* 3840x2160 */
     width: 100%;
     margin-left: auto;
@@ -70,19 +69,8 @@
 @media (min-width: 1903px) {
     .type-area,
     .type-area-fhd,
-    .type-area-qhd,
     .type-area-4k {
         max-width: calc(1920px - var(--scrollbar-width));
-    }
-}
-
-/* 2560x1440 */
-/* @media (min-width: calc(2560px - var(--scrollbar-width))) { */
-@media (min-width: 2543px) {
-    .type-area,
-    .type-area-qhd,
-    .type-area-4k {
-        max-width: calc(2560px - var(--scrollbar-width));
     }
 }
 
